@@ -9,21 +9,25 @@ body {
 	background-color: #fdf6ec; /* нежный пастельный бежевый */
 	margin-left: 20%;
 	margin-right: 20%;
-	border: 2px dotted #C1272D; /* ← тоже обновил на красный для гармонии */
-	padding: 10px;
+	border: 2px dotted #C1272D; /* красная пунктирная рамка — празднично! */
+	padding: 15px;
 	font-family: sans-serif;
-	color: #333; /* добавил для лучшей читаемости */
+	color: #333;
+	line-height: 1.5;
 }
 
 blockquote.q {
-	color: #C1272D; /* ← заменено на красный */
-	border-left: 4px solid #8B0000; /* тёмно-бордовый — оставим для контраста и глубины */
+	color: #C1272D; /* красный вместо золотого */
+	border-left: 4px solid #8B0000; /* тёмно-бордовый акцент для глубины */
 	font-style: italic;
-	padding-left: 10px;
+	padding-left: 12px;
 	margin-left: 0;
+	margin: 16px 0;
 }
 
 p.quote {
 	font-family: "Pudelinka", cursive;
-	font-size: 1.1em;
+	font-size: 1.2em;
+	color: #C1272D;
+	margin: 12px 0;
 }
