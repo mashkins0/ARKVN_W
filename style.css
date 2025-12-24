@@ -6,28 +6,53 @@
 }
 
 body {
-	background-color: #fbe9d6; /* ← тёплый персиковый крем — уют и праздничное настроение */
+	background-color: #fbe9d6; /* тёплый персиковый крем */
+	color: #4A3B32; /* тёплый тёмный текст */
 	margin-left: 20%;
 	margin-right: 20%;
-	border: 2px dotted #C1272D; /* яркая праздничная рамка */
+	border: 2px dotted #C1272D; /* красная пунктирная рамка */
 	padding: 15px;
 	font-family: sans-serif;
-	color: #333;
 	line-height: 1.5;
 }
 
+/* Заголовки — зелёные, как венок */
+h2 {
+	color: #2E7D32;
+	border-bottom: 1px dashed #C1272D;
+	padding-bottom: 4px;
+	margin-top: 24px;
+}
+
+/* Ссылки — красные, но с зелёным hover */
+a {
+	color: #C1272D;
+	text-decoration: none;
+}
+a:hover {
+	color: #2E7D32;
+	text-decoration: underline;
+}
+
+/* Цитаты — золотые, с зелёной/красной акцентной полосой */
 blockquote.q {
-	color: #C1272D; /* насыщенный красный */
-	border-left: 4px solid #8B0000; /* тёмно-бордовый — для контраста и глубины */
+	color: #D4AF37; /* золото — мудрость */
+	border-left: 4px solid #2E7D32; /* ← обновлено: зелёная полоса! */
 	font-style: italic;
 	padding-left: 12px;
-	margin-left: 0;
 	margin: 16px 0;
 }
 
+/* Текст цитат шрифтом Pudelinka — красный */
 p.quote {
 	font-family: "Pudelinka", cursive;
 	font-size: 1.2em;
 	color: #C1272D;
 	margin: 12px 0;
+}
+
+/* Даты и подписи — тихий зелёный */
+time, .meta {
+	color: #2E7D32;
+	font-size: 0.9em;
 }
