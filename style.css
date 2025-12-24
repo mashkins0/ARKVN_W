@@ -6,10 +6,10 @@
 }
 
 body {
-	background-color: #fdf6ec; /* нежный пастельный бежевый */
+	background-color: #fbe9d6; /* ← тёплый персиковый крем — уют и праздничное настроение */
 	margin-left: 20%;
 	margin-right: 20%;
-	border: 2px dotted #C1272D; /* красная пунктирная рамка — празднично! */
+	border: 2px dotted #C1272D; /* яркая праздничная рамка */
 	padding: 15px;
 	font-family: sans-serif;
 	color: #333;
@@ -17,8 +17,8 @@ body {
 }
 
 blockquote.q {
-	color: #C1272D; /* красный вместо золотого */
-	border-left: 4px solid #8B0000; /* тёмно-бордовый акцент для глубины */
+	color: #C1272D; /* насыщенный красный */
+	border-left: 4px solid #8B0000; /* тёмно-бордовый — для контраста и глубины */
 	font-style: italic;
 	padding-left: 12px;
 	margin-left: 0;
